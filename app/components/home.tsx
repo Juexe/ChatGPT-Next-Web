@@ -159,7 +159,7 @@ function _Home() {
                 shadow
               />
             </div>
-            <div className={styles["sidebar-action"]}>
+            <div className={styles["sidebar-action"]} hidden>
               <a href={REPO_URL} target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
